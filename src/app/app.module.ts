@@ -28,7 +28,7 @@ import { EditproyectoComponent } from './componentes/proyecto/editproyecto.compo
 import { NewproyectoComponent } from './componentes/proyecto/newproyecto.component';
 import { ProyectoComponent } from './componentes/proyecto/proyecto.component';
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
-import { environment } from '../environments/environment';
+import { environment } from '../environment/environment';
 import { provideStorage,getStorage } from '@angular/fire/storage';
 
 @NgModule({
